@@ -2,7 +2,7 @@
 
 Solução do desafio usando o modelo **Bike Store Inc** para responder perguntas de Marketing/Comercial com SQL.
 
-## ✅ Objetivos
+## Objetivos
 - Desenvolver consultas com `JOIN` (INNER/LEFT/RIGHT), `GROUP BY`, `COUNT` e agregações.
 - Documentar como reproduzir os resultados.
 - Entregar repositório versionado com instruções claras.
@@ -36,12 +36,18 @@ Solução do desafio usando o modelo **Bike Store Inc** para responder perguntas
 - Scripts de DDL e seed garantem execução rápida local.
 
 ## Estrutura
-/README.md
-/.gitignore
-/consultas.sql
-/ddl/schema_postgres.sql
-/ddl/schema_sqlserver.sql
+dll
+data
 /data/seed_minimo.sql
+/ddl/schema_postgres.sql
+amostras
+/model.png
+/.gitignore
+/README.md
+/consultas.sql
+
+
+
 
 
 ============================================================================================================================
