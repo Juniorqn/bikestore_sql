@@ -1,3 +1,50 @@
+# Bike Store Inc – Desafio SQL (DBA 20240802)
+
+Solução do desafio usando o modelo **Bike Store Inc** para responder perguntas de Marketing/Comercial com SQL.
+
+## ✅ Objetivos
+- Desenvolver consultas com `JOIN` (INNER/LEFT/RIGHT), `GROUP BY`, `COUNT` e agregações.
+- Documentar como reproduzir os resultados.
+- Entregar repositório versionado com instruções claras.
+
+## Tecnologias
+- SQL padrão. Testado em **PostgreSQL**.
+- Testado via https://sqlfiddle.com/postgresql/online-compiler
+
+## Tabelas utilizadas (resumo)
+`customers`, `orders`, `order_items`, `products`, `brands`, `categories`, `stocks`, `stores`, `staffs`.
+
+## Como instalar e executar
+1. **Crie o schema** no SGBD de sua escolha:
+   - PostgreSQL: executar `ddl/schema_postgres.sql`
+   
+2. **Carregue dados mínimos**: executar `data/seed_minimo.sql`
+3. **Execute as consultas** em `consultas.sql` (estão numeradas e comentadas).
+   - Para filtrar por marca na *Consulta 4b*, troque o literal `'Trek'` pela marca desejada.
+
+## Consultas entregues
+1. Clientes que **nunca** compraram  
+2. Produtos **nunca** comprados  
+3. Produtos **sem estoque**  
+4a. Quantidade vendida por **Marca** e **Loja**  
+4b. Quantidade vendida por **Loja** para **uma Marca específica**  
+5. Funcionários **sem** pedidos
+
+## Validação
+- Consultas de ausência usam `LEFT JOIN ... IS NULL`.
+- Agregações por dimensões solicitadas; `SUM(oi.quantity)`.
+- Scripts de DDL e seed garantem execução rápida local.
+
+## Estrutura
+/README.md
+/.gitignore
+/consultas.sql
+/ddl/schema_postgres.sql
+/ddl/schema_sqlserver.sql
+/data/seed_minimo.sql
+
+
+============================================================================================================================
 # DBA Challenge 20240802
 
 
