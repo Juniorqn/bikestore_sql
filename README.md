@@ -38,9 +38,9 @@ Solução do desafio usando o modelo **Bike Store Inc** para responder perguntas
 ## Estrutura
 dll
 data
-/data/seed_minimo.sql
+ /data/seed_minimo.sql
 /ddl/schema_postgres.sql
-amostras
+sampes
 /model.png
 /.gitignore
 /README.md
