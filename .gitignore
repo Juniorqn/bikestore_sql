@@ -1,0 +1,7 @@
+# SQL / editors
+*.sql~ 
+*.tmp
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
